@@ -1,0 +1,76 @@
+.bgse{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://promos.makemytrip.com/altaccoimages/listing/houseboat_dt.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+  .bgse .overlay-content {
+  position: relative;
+  z-index: 1;
+}
+ .search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 850px;
+    margin: auto;
+  } 
+  
+  .search-container h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+  
+  .search-box {
+     display: flex;
+     width: 100%;
+     gap: 15px;
+    padding: 10px 5px;
+    /* box-shadow: 0 4px 10px 0 rgba(0, 0, 0, .07); */
+    /* background-color: #89acc8; */
+  }
+  .searchbutton button{
+    font-size: 1.15rem;
+    font-family: quicksand;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 2rem;
+    height: 3.2rem;
+    width:16rem;
+    box-shadow: rgba(0, 0, 0, 0.13) 0px 0.2rem 1.2rem 0px;
+  }
+  .search-box input,
+  .search-box select,
+  .search-box button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .search-box input {
+    flex: 1;
+  }
+  .search-box button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-box button:hover {
+    background-color: #0056b3;
+  }
+  
